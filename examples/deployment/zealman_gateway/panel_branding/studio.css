@@ -1,0 +1,81 @@
+:root {
+  --studio-font: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Microsoft YaHei", sans-serif;
+  --studio-bg: #f3f5fa;
+  --studio-surface: #ffffff;
+  --studio-border: #e5e9f2;
+  --studio-ink: #19243b;
+  --studio-muted: #7b879d;
+  --studio-accent: #5265db;
+  --studio-tint: #edf0ff;
+  --color-primary: #5265db;
+  --color-border: #e5e9f2;
+  --color-surface: #ffffff;
+  --color-text: #19243b;
+  --color-text-secondary: #748199;
+}
+[data-theme="dark"] {
+  --studio-bg: #0e1524;
+  --studio-surface: #151f32;
+  --studio-border: #28344b;
+  --studio-ink: #e6ecf8;
+  --studio-muted: #93a1bb;
+  --studio-accent: #9ba8ff;
+  --studio-tint: #25314f;
+  --color-primary: #9ba8ff;
+  --color-border: #28344b;
+  --color-surface: #151f32;
+  --color-text: #e6ecf8;
+  --color-text-secondary: #93a1bb;
+}
+html, body, button, input, textarea, select { font-family: var(--studio-font) !important; }
+body { background: var(--studio-bg); color: var(--studio-ink); -webkit-font-smoothing: antialiased; }
+button { font-weight: 600; letter-spacing: .005em; }
+button:focus-visible, a:focus-visible { outline: 3px solid #8796ee; outline-offset: 3px; }
+input, textarea, select { border-radius: 10px !important; accent-color: var(--studio-accent); }
+input:focus, textarea:focus, select:focus { border-color: #8c99e8 !important; box-shadow: 0 0 0 3px #7c8ce71a !important; }
+.app-sidebar { background: var(--studio-surface) !important; border-color: var(--studio-border) !important; padding: 28px 16px 18px !important; }
+.app-sidebar .logo-text { display: flex; align-items: center; gap: 10px; background: none !important; color: var(--studio-ink) !important; -webkit-text-fill-color: var(--studio-ink) !important; font-size: 24px !important; font-weight: 750 !important; letter-spacing: -.04em !important; }
+.app-sidebar .logo-text::before { content: "Lich"; display: inline-grid; place-items: center; width: 34px; height: 34px; flex: 0 0 34px; border-radius: 11px; background: #5265db; color: white; -webkit-text-fill-color: white; font-size: 12px; font-weight: 750; letter-spacing: -.02em; box-shadow: 0 5px 14px #5265db30; }
+.app-sidebar .logo-text + div { margin: 7px 0 0 44px !important; }
+.app-sidebar .logo-text + div > span { display: none; }
+.app-sidebar .logo-text + div p { font-size: 10px !important; letter-spacing: .12em !important; color: var(--studio-muted) !important; }
+.app-sidebar nav { padding-top: 22px !important; }
+.app-sidebar nav > button, .app-sidebar nav > div > button { min-height: 43px; border-radius: 11px !important; margin-bottom: 5px; font-size: 13px !important; transition: background .16s, color .16s, box-shadow .16s; }
+.app-sidebar nav button:hover { background: var(--studio-tint) !important; }
+.app-sidebar nav button[class*="text-blue"], .app-sidebar nav button[class*="bg-blue"] { background: var(--studio-tint) !important; border-color: transparent !important; color: var(--studio-accent) !important; box-shadow: none !important; }
+.app-sidebar nav button svg { opacity: .85; }
+.app-sidebar select { background: var(--studio-bg) !important; border-color: var(--studio-border) !important; }
+html[data-theme="dark"] .app-sidebar { background: var(--studio-surface) !important; background-image: none !important; border-color: var(--studio-border) !important; }
+html[data-theme="dark"] .app-sidebar .logo-text { background: none !important; -webkit-text-fill-color: var(--studio-ink) !important; text-shadow: none !important; filter: none !important; }
+html[data-theme="dark"] .app-sidebar .logo-text::before { -webkit-text-fill-color: white !important; box-shadow: 0 4px 12px #0002 !important; }
+html[data-theme="dark"] .app-sidebar nav button { color: var(--studio-muted) !important; text-shadow: none !important; box-shadow: none !important; }
+html[data-theme="dark"] .app-sidebar nav button[class*="text-blue"], html[data-theme="dark"] .app-sidebar nav button[class*="bg-blue"] { color: var(--studio-accent) !important; background: var(--studio-tint) !important; border-color: transparent !important; }
+main { background: var(--studio-bg); }
+main > [id^="page-"] > .rounded-xl { border: 1px solid var(--studio-border); border-radius: 20px !important; background: var(--studio-surface) !important; box-shadow: 0 4px 24px #1d2c4c04; }
+main .rounded-xl { border-radius: 15px; }
+main h1, main h2, main h3 { letter-spacing: -.025em; }
+main .shadow-lg, main .shadow-xl { box-shadow: 0 8px 30px #1d2c4c0a !important; }
+#page-system-management > div { overflow: hidden; border: 1px solid var(--studio-border); border-radius: 22px !important; background: var(--studio-surface) !important; box-shadow: 0 5px 25px #1d2c4c05; }
+#page-system-management > div > .absolute[aria-hidden="true"] { display: none; }
+#page-system-management > div::before { content: ""; position: absolute; right: -100px; top: -160px; width: 560px; height: 480px; pointer-events: none; background: radial-gradient(ellipse, #8f9ff322 0%, transparent 65%); }
+#page-system-management .text-center.motion-rise { padding-top: clamp(24px, 5vh, 64px) !important; padding-bottom: 10px; }
+#page-system-management .text-center.motion-rise::before { content: "LichTV  /  AI STUDIO"; display: block; color: var(--studio-accent); font-size: 10px; font-weight: 700; letter-spacing: .2em; margin-bottom: 22px; }
+#page-system-management [style*="SpeedoPersonal"] { font-family: var(--studio-font) !important; font-size: clamp(30px, 4vw, 50px) !important; font-weight: 750; line-height: 1.24; letter-spacing: -.055em !important; margin: 0; }
+#page-system-management .animate-gradient { background: none !important; color: var(--studio-ink) !important; -webkit-text-fill-color: var(--studio-ink); animation: none !important; margin-bottom: 18px !important; }
+#page-system-management .text-center > p { font-size: 14px !important; line-height: 1.8; color: var(--studio-muted) !important; font-weight: 400; }
+#page-system-management .text-center > p + p { font-size: 12px !important; margin-top: 6px; }
+#page-system-management button { border-radius: 12px !important; }
+#page-system-management button[class*="bg-gradient-to-b"] { background: #5265db !important; border-color: #5265db !important; box-shadow: 0 6px 18px #5265db22 !important; }
+#page-system-management button[class*="border-red"] { background: transparent !important; border-color: var(--studio-border) !important; color: var(--studio-muted) !important; }
+#page-system-management .glass-sweep { display: none; }
+#page-system-management [class*="shadow-"] { box-shadow: 0 3px 12px #1d2c4c06; }
+.h3-app { --h3-bg: var(--studio-bg); font-family: var(--studio-font) !important; }
+.h3-topbar { background: var(--studio-surface) !important; border-color: var(--studio-border) !important; box-shadow: 0 2px 12px #1d2c4c04; }
+.h3-brand-mark { background: #5265db !important; color: white !important; border-radius: 10px !important; }
+.h3-brand-name { color: var(--studio-ink) !important; font-weight: 750 !important; letter-spacing: -.03em !important; }
+.h3-btn { border-radius: 9px !important; font-family: var(--studio-font) !important; }
+/* Defense in depth for promotional elements in an older client-side render. */
+a[href*="space.bilibili.com/295578108"], a[href*="pan.quark.cn/s/cde3c555a0a4"], a[href*="referral_code="], .h3-qq, .h3-mirror-links { display: none !important; }
+@media (min-width: 768px) { .app-sidebar { width: 248px !important; } main { padding: 28px 32px !important; } }
+@media (max-width: 767px) { .app-sidebar { width: 266px !important; } main { padding: 18px 12px !important; } #page-system-management > div { border-radius: 16px !important; } #page-system-management .text-center > p { font-size: 13px !important; } }
+@media (prefers-reduced-motion: reduce) { *, *::before, *::after { animation-duration: .01ms !important; transition-duration: .01ms !important; } }

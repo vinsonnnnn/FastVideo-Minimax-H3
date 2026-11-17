@@ -1,0 +1,18 @@
+[Unit]
+Description=LichTV document and draft workspace
+After=network.target zealman-gpu-tunnel.service
+
+[Service]
+Type=simple
+User=www-data
+Group=www-data
+WorkingDirectory=/data/lichtv-studio/app
+ExecStart=/data/lichtv-studio/venv/bin/python /data/lichtv-studio/app/studio_api.py --data-dir /data/lichtv-studio/data
+Restart=on-failure
+RestartSec=5
+UMask=0077
+NoNewPrivileges=true
+PrivateTmp=true
+
+[Install]
+WantedBy=multi-user.target

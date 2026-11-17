@@ -1,0 +1,1674 @@
+{
+  "verified_at": "2026-11-15T05:18:04.438948+00:00",
+  "files": [
+    {
+      "file": "/root/ComfyUI/output/lichtv-benchmark-20261115/01-a0f50980_00001.mp4",
+      "exists": true,
+      "verified_at": "2026-11-15T05:17:43.436418+00:00",
+      "method": "ffmpeg full video/audio decode",
+      "success": true,
+      "returncode": 0,
+      "stderr": "",
+      "probe": {
+        "programs": [],
+        "streams": [
+          {
+            "codec_name": "h264",
+            "codec_type": "video",
+            "width": 864,
+            "height": 480,
+            "r_frame_rate": "8/1",
+            "nb_frames": "1"
+          }
+        ],
+        "format": {
+          "duration": "0.125000"
+        }
+      },
+      "check_seconds": 0.121
+    },
+    {
+      "file": "/root/ComfyUI/output/lichtv-benchmark-20261115/02-d23d84d3_00001-audio.mp4",
+      "exists": true,
+      "verified_at": "2026-11-15T05:17:43.557752+00:00",
+      "method": "ffmpeg full video/audio decode",
+      "success": true,
+      "returncode": 0,
+      "stderr": "",
+      "probe": {
+        "programs": [],
+        "streams": [
+          {
+            "codec_name": "h264",
+            "codec_type": "video",
+            "width": 864,
+            "height": 480,
+            "r_frame_rate": "24/1",
+            "nb_frames": "124"
+          },
+          {
+            "codec_name": "aac",
+            "codec_type": "audio",
+            "sample_rate": "32000",
+            "channels": 2,
+            "r_frame_rate": "0/0",
+            "nb_frames": "162"
+          }
+        ],
+        "format": {
+          "duration": "5.167000"
+        }
+      },
+      "check_seconds": 0.418
+    },
+    {
+      "file": "/root/ComfyUI/output/lichtv-benchmark-20261115/03-af27af66_00001-audio.mp4",
+      "exists": true,
+      "verified_at": "2026-11-15T05:17:43.975830+00:00",
+      "method": "ffmpeg full video/audio decode",
+      "success": true,
+      "returncode": 0,
+      "stderr": "",
+      "probe": {
+        "programs": [],
+        "streams": [
+          {
+            "codec_name": "h264",
+            "codec_type": "video",
+            "width": 1280,
+            "height": 704,
+            "r_frame_rate": "24/1",
+            "nb_frames": "124"
+          },
+          {
+            "codec_name": "aac",
+            "codec_type": "audio",
+            "sample_rate": "32000",
+            "channels": 2,
+            "r_frame_rate": "0/0",
+            "nb_frames": "162"
+          }
+        ],
+        "format": {
+          "duration": "5.167000"
+        }
+      },
+      "check_seconds": 0.459
+    },
+    {
+      "file": "/root/ComfyUI/output/lichtv-benchmark-20261115/04-0b5a0ccf_00001_.mp4",
+      "exists": true,
+      "verified_at": "2026-11-15T05:17:44.434951+00:00",
+      "method": "ffmpeg full video/audio decode",
+      "success": true,
+      "returncode": 0,
+      "stderr": "",
+      "probe": {
+        "programs": [],
+        "streams": [
+          {
+            "codec_name": "h264",
+            "codec_type": "video",
+            "width": 864,
+            "height": 480,
+            "r_frame_rate": "24/1",
+            "nb_frames": "124"
+          },
+          {
+            "codec_name": "aac",
+            "codec_type": "audio",
+            "sample_rate": "32000",
+            "channels": 2,
+            "r_frame_rate": "0/0",
+            "nb_frames": "163"
+          }
+        ],
+        "format": {
+          "duration": "5.167000"
+        }
+      },
+      "check_seconds": 0.281
+    },
+    {
+      "file": "/root/ComfyUI/output/lichtv-benchmark-20261115/05-ed58b0b2_00001_.mp4",
+      "exists": true,
+      "verified_at": "2026-11-15T05:17:44.716149+00:00",
+      "method": "ffmpeg full video/audio decode",
+      "success": true,
+      "returncode": 0,
+      "stderr": "",
+      "probe": {
+        "programs": [],
+        "streams": [
+          {
+            "codec_name": "h264",
+            "codec_type": "video",
+            "width": 864,
+            "height": 480,
+            "r_frame_rate": "24/1",
+            "nb_frames": "124"
+          },
+          {
+            "codec_name": "aac",
+            "codec_type": "audio",
+            "sample_rate": "32000",
+            "channels": 2,
+            "r_frame_rate": "0/0",
+            "nb_frames": "163"
+          }
+        ],
+        "format": {
+          "duration": "5.167000"
+        }
+      },
+      "check_seconds": 0.281
+    },
+    {
+      "file": "/root/ComfyUI/output/lichtv-benchmark-20261115/06-5e93cf86_00001_.mp4",
+      "exists": true,
+      "verified_at": "2026-11-15T05:17:44.997267+00:00",
+      "method": "ffmpeg full video/audio decode",
+      "success": true,
+      "returncode": 0,
+      "stderr": "",
+      "probe": {
+        "programs": [],
+        "streams": [
+          {
+            "codec_name": "h264",
+            "codec_type": "video",
+            "width": 864,
+            "height": 480,
+            "r_frame_rate": "24/1",
+            "nb_frames": "124"
+          },
+          {
+            "codec_name": "aac",
+            "codec_type": "audio",
+            "sample_rate": "32000",
+            "channels": 2,
+            "r_frame_rate": "0/0",
+            "nb_frames": "163"
+          }
+        ],
+        "format": {
+          "duration": "5.167000"
+        }
+      },
+      "check_seconds": 0.309
+    },
+    {
+      "file": "/root/ComfyUI/output/lichtv-benchmark-20261115/07-9b9f986d_00001-audio.mp4",
+      "exists": true,
+      "verified_at": "2026-11-15T05:17:45.306899+00:00",
+      "method": "ffmpeg full video/audio decode",
+      "success": true,
+      "returncode": 0,
+      "stderr": "",
+      "probe": {
+        "programs": [],
+        "streams": [
+          {
+            "codec_name": "h264",
+            "codec_type": "video",
+            "width": 864,
+            "height": 480,
+            "r_frame_rate": "24/1",
+            "nb_frames": "124"
+          },
+          {
+            "codec_name": "aac",
+            "codec_type": "audio",
+            "sample_rate": "32000",
+            "channels": 2,
+            "r_frame_rate": "0/0",
+            "nb_frames": "162"
+          }
+        ],
+        "format": {
+          "duration": "5.167000"
+        }
+      },
+      "check_seconds": 0.37
+    },
+    {
+      "file": "/root/ComfyUI/output/lichtv-benchmark-20261115/08-ec75c3f5_00001-audio.mp4",
+      "exists": true,
+      "verified_at": "2026-11-15T05:17:45.676928+00:00",
+      "method": "ffmpeg full video/audio decode",
+      "success": true,
+      "returncode": 0,
+      "stderr": "",
+      "probe": {
+        "programs": [],
+        "streams": [
+          {
+            "codec_name": "h264",
+            "codec_type": "video",
+            "width": 864,
+            "height": 480,
+            "r_frame_rate": "24/1",
+            "nb_frames": "124"
+          },
+          {
+            "codec_name": "aac",
+            "codec_type": "audio",
+            "sample_rate": "32000",
+            "channels": 2,
+            "r_frame_rate": "0/0",
+            "nb_frames": "162"
+          }
+        ],
+        "format": {
+          "duration": "5.167000"
+        }
+      },
+      "check_seconds": 0.37
+    },
+    {
+      "file": "/root/ComfyUI/output/lichtv-benchmark-20261115/09-85de2686_00001-audio.mp4",
+      "exists": true,
+      "verified_at": "2026-11-15T05:17:46.047014+00:00",
+      "method": "ffmpeg full video/audio decode",
+      "success": true,
+      "returncode": 0,
+      "stderr": "",
+      "probe": {
+        "programs": [],
+        "streams": [
+          {
+            "codec_name": "h264",
+            "codec_type": "video",
+            "width": 864,
+            "height": 480,
+            "r_frame_rate": "24/1",
+            "nb_frames": "124"
+          },
+          {
+            "codec_name": "aac",
+            "codec_type": "audio",
+            "sample_rate": "32000",
+            "channels": 2,
+            "r_frame_rate": "0/0",
+            "nb_frames": "162"
+          }
+        ],
+        "format": {
+          "duration": "5.167000"
+        }
+      },
+      "check_seconds": 0.291
+    },
+    {
+      "file": "/root/ComfyUI/output/lichtv-benchmark-20261115/10-a7f51a73_00001-audio.mp4",
+      "exists": true,
+      "verified_at": "2026-11-15T05:17:46.338717+00:00",
+      "method": "ffmpeg full video/audio decode",
+      "success": true,
+      "returncode": 0,
+      "stderr": "",
+      "probe": {
+        "programs": [],
+        "streams": [
+          {
+            "codec_name": "h264",
+            "codec_type": "video",
+            "width": 864,
+            "height": 480,
+            "r_frame_rate": "24/1",
+            "nb_frames": "124"
+          },
+          {
+            "codec_name": "aac",
+            "codec_type": "audio",
+            "sample_rate": "32000",
+            "channels": 2,
+            "r_frame_rate": "0/0",
+            "nb_frames": "162"
+          }
+        ],
+        "format": {
+          "duration": "5.167000"
+        }
+      },
+      "check_seconds": 0.355
+    },
+    {
+      "file": "/root/ComfyUI/output/lichtv-benchmark-20261115/12-d0cf03ac_00001-audio.mp4",
+      "exists": true,
+      "verified_at": "2026-11-15T05:17:46.694374+00:00",
+      "method": "ffmpeg full video/audio decode",
+      "success": true,
+      "returncode": 0,
+      "stderr": "",
+      "probe": {
+        "programs": [],
+        "streams": [
+          {
+            "codec_name": "h264",
+            "codec_type": "video",
+            "width": 864,
+            "height": 480,
+            "r_frame_rate": "24/1",
+            "nb_frames": "124"
+          },
+          {
+            "codec_name": "aac",
+            "codec_type": "audio",
+            "sample_rate": "32000",
+            "channels": 2,
+            "r_frame_rate": "0/0",
+            "nb_frames": "162"
+          }
+        ],
+        "format": {
+          "duration": "5.167000"
+        }
+      },
+      "check_seconds": 0.39
+    },
+    {
+      "file": "/root/ComfyUI/output/lichtv-benchmark-20261115/13-f7cf86a4_00001-audio.mp4",
+      "exists": true,
+      "verified_at": "2026-11-15T05:17:47.085007+00:00",
+      "method": "ffmpeg full video/audio decode",
+      "success": true,
+      "returncode": 0,
+      "stderr": "",
+      "probe": {
+        "programs": [],
+        "streams": [
+          {
+            "codec_name": "h264",
+            "codec_type": "video",
+            "width": 864,
+            "height": 480,
+            "r_frame_rate": "24/1",
+            "nb_frames": "124"
+          },
+          {
+            "codec_name": "aac",
+            "codec_type": "audio",
+            "sample_rate": "32000",
+            "channels": 2,
+            "r_frame_rate": "0/0",
+            "nb_frames": "162"
+          }
+        ],
+        "format": {
+          "duration": "5.167000"
+        }
+      },
+      "check_seconds": 0.312
+    },
+    {
+      "file": "/root/ComfyUI/output/lichtv-benchmark-20261115/15-bd71e52f_00001_.mp4",
+      "exists": true,
+      "verified_at": "2026-11-15T05:17:47.397226+00:00",
+      "method": "ffmpeg full video/audio decode",
+      "success": true,
+      "returncode": 0,
+      "stderr": "",
+      "probe": {
+        "programs": [],
+        "streams": [
+          {
+            "codec_name": "h264",
+            "codec_type": "video",
+            "width": 2560,
+            "height": 1408,
+            "r_frame_rate": "24/1",
+            "nb_frames": "124"
+          },
+          {
+            "codec_name": "aac",
+            "codec_type": "audio",
+            "sample_rate": "32000",
+            "channels": 2,
+            "r_frame_rate": "0/0",
+            "nb_frames": "163"
+          }
+        ],
+        "format": {
+          "duration": "5.167000"
+        }
+      },
+      "check_seconds": 1.794
+    },
+    {
+      "file": "/root/ComfyUI/output/lichtv-benchmark-20261115/16-548cd308_00001-audio.mp4",
+      "exists": true,
+      "verified_at": "2026-11-15T05:17:49.192120+00:00",
+      "method": "ffmpeg full video/audio decode",
+      "success": true,
+      "returncode": 0,
+      "stderr": "",
+      "probe": {
+        "programs": [],
+        "streams": [
+          {
+            "codec_name": "h264",
+            "codec_type": "video",
+            "width": 864,
+            "height": 480,
+            "r_frame_rate": "24/1",
+            "nb_frames": "124"
+          },
+          {
+            "codec_name": "aac",
+            "codec_type": "audio",
+            "sample_rate": "32000",
+            "channels": 2,
+            "r_frame_rate": "0/0",
+            "nb_frames": "162"
+          }
+        ],
+        "format": {
+          "duration": "5.167000"
+        }
+      },
+      "check_seconds": 0.342
+    },
+    {
+      "file": "/root/ComfyUI/output/lichtv-benchmark-20261115/17-bedd0d56_00001-audio.mp4",
+      "exists": true,
+      "verified_at": "2026-11-15T05:17:49.534835+00:00",
+      "method": "ffmpeg full video/audio decode",
+      "success": true,
+      "returncode": 0,
+      "stderr": "",
+      "probe": {
+        "programs": [],
+        "streams": [
+          {
+            "codec_name": "h264",
+            "codec_type": "video",
+            "width": 640,
+            "height": 1120,
+            "r_frame_rate": "24/1",
+            "nb_frames": "124"
+          },
+          {
+            "codec_name": "aac",
+            "codec_type": "audio",
+            "sample_rate": "32000",
+            "channels": 2,
+            "r_frame_rate": "0/0",
+            "nb_frames": "162"
+          }
+        ],
+        "format": {
+          "duration": "5.167000"
+        }
+      },
+      "check_seconds": 0.433
+    },
+    {
+      "file": "/root/ComfyUI/output/lichtv-benchmark-20261115/18-d6251ab5_00001-audio.mp4",
+      "exists": true,
+      "verified_at": "2026-11-15T05:17:49.967680+00:00",
+      "method": "ffmpeg full video/audio decode",
+      "success": true,
+      "returncode": 0,
+      "stderr": "",
+      "probe": {
+        "programs": [],
+        "streams": [
+          {
+            "codec_name": "h264",
+            "codec_type": "video",
+            "width": 1280,
+            "height": 704,
+            "r_frame_rate": "24/1",
+            "nb_frames": "124"
+          },
+          {
+            "codec_name": "aac",
+            "codec_type": "audio",
+            "sample_rate": "32000",
+            "channels": 2,
+            "r_frame_rate": "0/0",
+            "nb_frames": "162"
+          }
+        ],
+        "format": {
+          "duration": "5.167000"
+        }
+      },
+      "check_seconds": 0.463
+    },
+    {
+      "file": "/root/ComfyUI/output/lichtv-benchmark-20261115/19-4cafe985_00001-audio.mp4",
+      "exists": true,
+      "verified_at": "2026-11-15T05:17:50.430862+00:00",
+      "method": "ffmpeg full video/audio decode",
+      "success": true,
+      "returncode": 0,
+      "stderr": "",
+      "probe": {
+        "programs": [],
+        "streams": [
+          {
+            "codec_name": "h264",
+            "codec_type": "video",
+            "width": 864,
+            "height": 480,
+            "r_frame_rate": "24/1",
+            "nb_frames": "124"
+          },
+          {
+            "codec_name": "aac",
+            "codec_type": "audio",
+            "sample_rate": "32000",
+            "channels": 2,
+            "r_frame_rate": "0/0",
+            "nb_frames": "162"
+          }
+        ],
+        "format": {
+          "duration": "5.167000"
+        }
+      },
+      "check_seconds": 0.343
+    },
+    {
+      "file": "/root/ComfyUI/output/lichtv-benchmark-20261115/20-0b54a206_00001-audio.mp4",
+      "exists": true,
+      "verified_at": "2026-11-15T05:17:50.774094+00:00",
+      "method": "ffmpeg full video/audio decode",
+      "success": true,
+      "returncode": 0,
+      "stderr": "",
+      "probe": {
+        "programs": [],
+        "streams": [
+          {
+            "codec_name": "h264",
+            "codec_type": "video",
+            "width": 1728,
+            "height": 960,
+            "r_frame_rate": "24/1",
+            "nb_frames": "121"
+          },
+          {
+            "codec_name": "aac",
+            "codec_type": "audio",
+            "sample_rate": "48000",
+            "channels": 2,
+            "r_frame_rate": "0/0",
+            "nb_frames": "237"
+          }
+        ],
+        "format": {
+          "duration": "5.042000"
+        }
+      },
+      "check_seconds": 0.509
+    },
+    {
+      "file": "/root/ComfyUI/output/lichtv-benchmark-20261115/21-45184952_00001-audio.mp4",
+      "exists": true,
+      "verified_at": "2026-11-15T05:17:51.283725+00:00",
+      "method": "ffmpeg full video/audio decode",
+      "success": true,
+      "returncode": 0,
+      "stderr": "",
+      "probe": {
+        "programs": [],
+        "streams": [
+          {
+            "codec_name": "h264",
+            "codec_type": "video",
+            "width": 896,
+            "height": 1664,
+            "r_frame_rate": "30/1",
+            "nb_frames": "145"
+          },
+          {
+            "codec_name": "aac",
+            "codec_type": "audio",
+            "sample_rate": "48000",
+            "channels": 2,
+            "r_frame_rate": "0/0",
+            "nb_frames": "227"
+          }
+        ],
+        "format": {
+          "duration": "4.834000"
+        }
+      },
+      "check_seconds": 0.604
+    },
+    {
+      "file": "/root/ComfyUI/output/lichtv-benchmark-20261115/22-6a5550d8_00001_.mp4",
+      "exists": true,
+      "verified_at": "2026-11-15T05:17:51.887673+00:00",
+      "method": "ffmpeg full video/audio decode",
+      "success": true,
+      "returncode": 0,
+      "stderr": "",
+      "probe": {
+        "programs": [],
+        "streams": [
+          {
+            "codec_name": "h264",
+            "codec_type": "video",
+            "width": 832,
+            "height": 448,
+            "r_frame_rate": "24/1",
+            "nb_frames": "217"
+          },
+          {
+            "codec_name": "aac",
+            "codec_type": "audio",
+            "sample_rate": "48000",
+            "channels": 2,
+            "r_frame_rate": "0/0",
+            "nb_frames": "233"
+          }
+        ],
+        "format": {
+          "duration": "9.042000"
+        }
+      },
+      "check_seconds": 0.39
+    },
+    {
+      "file": "/root/ComfyUI/output/lichtv-benchmark-20261115/24-acbf254d_00001-audio.mp4",
+      "exists": true,
+      "verified_at": "2026-11-15T05:17:52.278859+00:00",
+      "method": "ffmpeg full video/audio decode",
+      "success": true,
+      "returncode": 0,
+      "stderr": "",
+      "probe": {
+        "programs": [],
+        "streams": [
+          {
+            "codec_name": "h264",
+            "codec_type": "video",
+            "width": 864,
+            "height": 480,
+            "r_frame_rate": "24/1",
+            "nb_frames": "121"
+          },
+          {
+            "codec_name": "aac",
+            "codec_type": "audio",
+            "sample_rate": "48000",
+            "channels": 2,
+            "r_frame_rate": "0/0",
+            "nb_frames": "237"
+          }
+        ],
+        "format": {
+          "duration": "5.042000"
+        }
+      },
+      "check_seconds": 0.292
+    },
+    {
+      "file": "/root/ComfyUI/output/lichtv-benchmark-20261115/25-afbd7d8d_00001.mp4",
+      "exists": true,
+      "verified_at": "2026-11-15T05:17:52.570941+00:00",
+      "method": "ffmpeg full video/audio decode",
+      "success": true,
+      "returncode": 0,
+      "stderr": "",
+      "probe": {
+        "programs": [],
+        "streams": [
+          {
+            "codec_name": "h264",
+            "codec_type": "video",
+            "width": 480,
+            "height": 864,
+            "r_frame_rate": "24/1",
+            "nb_frames": "121"
+          }
+        ],
+        "format": {
+          "duration": "5.042000"
+        }
+      },
+      "check_seconds": 0.264
+    },
+    {
+      "file": "/root/ComfyUI/output/lichtv-benchmark-20261115/26-cc975cd1_00001.mp4",
+      "exists": true,
+      "verified_at": "2026-11-15T05:17:52.835640+00:00",
+      "method": "ffmpeg full video/audio decode",
+      "success": true,
+      "returncode": 0,
+      "stderr": "",
+      "probe": {
+        "programs": [],
+        "streams": [
+          {
+            "codec_name": "h264",
+            "codec_type": "video",
+            "width": 480,
+            "height": 864,
+            "r_frame_rate": "24/1",
+            "nb_frames": "121"
+          }
+        ],
+        "format": {
+          "duration": "5.042000"
+        }
+      },
+      "check_seconds": 0.29
+    },
+    {
+      "file": "/root/ComfyUI/output/lichtv-benchmark-20261115/27-9316d232_00001.mp4",
+      "exists": true,
+      "verified_at": "2026-11-15T05:17:53.126525+00:00",
+      "method": "ffmpeg full video/audio decode",
+      "success": true,
+      "returncode": 0,
+      "stderr": "",
+      "probe": {
+        "programs": [],
+        "streams": [
+          {
+            "codec_name": "h264",
+            "codec_type": "video",
+            "width": 960,
+            "height": 1728,
+            "r_frame_rate": "30/1",
+            "nb_frames": "161"
+          }
+        ],
+        "format": {
+          "duration": "5.367000"
+        }
+      },
+      "check_seconds": 0.678
+    },
+    {
+      "file": "/root/ComfyUI/output/lichtv-benchmark-20261115/27-9316d232_00002_.png",
+      "exists": true,
+      "verified_at": "2026-11-15T05:17:53.804685+00:00",
+      "method": "Pillow full pixel decode",
+      "success": true,
+      "image_size": [
+        960,
+        1728
+      ],
+      "check_seconds": 0.177
+    },
+    {
+      "file": "/root/ComfyUI/output/lichtv-benchmark-20261115/28-745cae60_00001.mp4",
+      "exists": true,
+      "verified_at": "2026-11-15T05:17:53.982208+00:00",
+      "method": "ffmpeg full video/audio decode",
+      "success": true,
+      "returncode": 0,
+      "stderr": "",
+      "probe": {
+        "programs": [],
+        "streams": [
+          {
+            "codec_name": "h264",
+            "codec_type": "video",
+            "width": 480,
+            "height": 864,
+            "r_frame_rate": "16/1",
+            "nb_frames": "81"
+          }
+        ],
+        "format": {
+          "duration": "5.063000"
+        }
+      },
+      "check_seconds": 0.316
+    },
+    {
+      "file": "/root/ComfyUI/output/lichtv-benchmark-20261115/28-745cae60_00002.mp4",
+      "exists": true,
+      "verified_at": "2026-11-15T05:17:54.298063+00:00",
+      "method": "ffmpeg full video/audio decode",
+      "success": true,
+      "returncode": 0,
+      "stderr": "",
+      "probe": {
+        "programs": [],
+        "streams": [
+          {
+            "codec_name": "h264",
+            "codec_type": "video",
+            "width": 480,
+            "height": 864,
+            "r_frame_rate": "30/1",
+            "nb_frames": "161"
+          }
+        ],
+        "format": {
+          "duration": "5.367000"
+        }
+      },
+      "check_seconds": 0.383
+    },
+    {
+      "file": "/root/ComfyUI/output/lichtv-benchmark-20261115/28-745cae60_00003_.png",
+      "exists": true,
+      "verified_at": "2026-11-15T05:17:54.680937+00:00",
+      "method": "Pillow full pixel decode",
+      "success": true,
+      "image_size": [
+        960,
+        1728
+      ],
+      "check_seconds": 0.129
+    },
+    {
+      "file": "/root/ComfyUI/output/lichtv-benchmark-20261115/29-6de9ead9_00001-audio.mp4",
+      "exists": true,
+      "verified_at": "2026-11-15T05:17:54.809861+00:00",
+      "method": "ffmpeg full video/audio decode",
+      "success": true,
+      "returncode": 0,
+      "stderr": "",
+      "probe": {
+        "programs": [],
+        "streams": [
+          {
+            "codec_name": "h264",
+            "codec_type": "video",
+            "width": 480,
+            "height": 864,
+            "r_frame_rate": "24/1",
+            "nb_frames": "153"
+          },
+          {
+            "codec_name": "aac",
+            "codec_type": "audio",
+            "sample_rate": "44100",
+            "channels": 2,
+            "r_frame_rate": "0/0",
+            "nb_frames": "275"
+          }
+        ],
+        "format": {
+          "duration": "6.375000"
+        }
+      },
+      "check_seconds": 0.395
+    },
+    {
+      "file": "/root/ComfyUI/output/lichtv-benchmark-20261115/29-6de9ead9_00002-audio.mp4",
+      "exists": true,
+      "verified_at": "2026-11-15T05:17:55.205569+00:00",
+      "method": "ffmpeg full video/audio decode",
+      "success": true,
+      "returncode": 0,
+      "stderr": "",
+      "probe": {
+        "programs": [],
+        "streams": [
+          {
+            "codec_name": "h264",
+            "codec_type": "video",
+            "width": 616,
+            "height": 864,
+            "r_frame_rate": "24/1",
+            "nb_frames": "153"
+          },
+          {
+            "codec_name": "aac",
+            "codec_type": "audio",
+            "sample_rate": "44100",
+            "channels": 2,
+            "r_frame_rate": "0/0",
+            "nb_frames": "275"
+          }
+        ],
+        "format": {
+          "duration": "6.375000"
+        }
+      },
+      "check_seconds": 0.351
+    },
+    {
+      "file": "/root/ComfyUI/output/lichtv-benchmark-20261115/30-2960bf15_00001-audio.mp4",
+      "exists": true,
+      "verified_at": "2026-11-15T05:17:55.556731+00:00",
+      "method": "ffmpeg full video/audio decode",
+      "success": true,
+      "returncode": 0,
+      "stderr": "",
+      "probe": {
+        "programs": [],
+        "streams": [
+          {
+            "codec_name": "h264",
+            "codec_type": "video",
+            "width": 480,
+            "height": 864,
+            "r_frame_rate": "30/1",
+            "nb_frames": "120"
+          },
+          {
+            "codec_name": "aac",
+            "codec_type": "audio",
+            "sample_rate": "44100",
+            "channels": 2,
+            "r_frame_rate": "0/0",
+            "nb_frames": "173"
+          }
+        ],
+        "format": {
+          "duration": "4.000000"
+        }
+      },
+      "check_seconds": 0.419
+    },
+    {
+      "file": "/root/ComfyUI/output/lichtv-benchmark-20261115/32-8040e06c_00001_.png",
+      "exists": true,
+      "verified_at": "2026-11-15T05:17:55.976872+00:00",
+      "method": "Pillow full pixel decode",
+      "success": true,
+      "image_size": [
+        3686,
+        2048
+      ],
+      "check_seconds": 0.294
+    },
+    {
+      "file": "/root/ComfyUI/output/lichtv-benchmark-20261115/33-05f62a50_00001_.png",
+      "exists": true,
+      "verified_at": "2026-11-15T05:17:56.271704+00:00",
+      "method": "Pillow full pixel decode",
+      "success": true,
+      "image_size": [
+        2048,
+        3668
+      ],
+      "check_seconds": 0.2
+    },
+    {
+      "file": "/root/ComfyUI/output/lichtv-benchmark-20261115/34-208941dc_00001_.png",
+      "exists": true,
+      "verified_at": "2026-11-15T05:17:56.471584+00:00",
+      "method": "Pillow full pixel decode",
+      "success": true,
+      "image_size": [
+        760,
+        1368
+      ],
+      "check_seconds": 0.031
+    },
+    {
+      "file": "/root/ComfyUI/output/lichtv-benchmark-20261115/34-208941dc_00002_.png",
+      "exists": true,
+      "verified_at": "2026-11-15T05:17:56.503614+00:00",
+      "method": "Pillow full pixel decode",
+      "success": true,
+      "image_size": [
+        760,
+        1368
+      ],
+      "check_seconds": 0.03
+    },
+    {
+      "file": "/root/ComfyUI/output/lichtv-benchmark-20261115/34-208941dc_00003_.png",
+      "exists": true,
+      "verified_at": "2026-11-15T05:17:56.534185+00:00",
+      "method": "Pillow full pixel decode",
+      "success": true,
+      "image_size": [
+        760,
+        1368
+      ],
+      "check_seconds": 0.03
+    },
+    {
+      "file": "/root/ComfyUI/output/lichtv-benchmark-20261115/34-208941dc_00004_.png",
+      "exists": true,
+      "verified_at": "2026-11-15T05:17:56.564131+00:00",
+      "method": "Pillow full pixel decode",
+      "success": true,
+      "image_size": [
+        760,
+        1368
+      ],
+      "check_seconds": 0.03
+    },
+    {
+      "file": "/root/ComfyUI/output/lichtv-benchmark-20261115/34-208941dc_00005_.png",
+      "exists": true,
+      "verified_at": "2026-11-15T05:17:56.594651+00:00",
+      "method": "Pillow full pixel decode",
+      "success": true,
+      "image_size": [
+        760,
+        1368
+      ],
+      "check_seconds": 0.028
+    },
+    {
+      "file": "/root/ComfyUI/output/lichtv-benchmark-20261115/34-208941dc_00006_.png",
+      "exists": true,
+      "verified_at": "2026-11-15T05:17:56.622780+00:00",
+      "method": "Pillow full pixel decode",
+      "success": true,
+      "image_size": [
+        760,
+        1368
+      ],
+      "check_seconds": 0.032
+    },
+    {
+      "file": "/root/ComfyUI/output/lichtv-benchmark-20261115/34-208941dc_00007_.png",
+      "exists": true,
+      "verified_at": "2026-11-15T05:17:56.655099+00:00",
+      "method": "Pillow full pixel decode",
+      "success": true,
+      "image_size": [
+        760,
+        1368
+      ],
+      "check_seconds": 0.03
+    },
+    {
+      "file": "/root/ComfyUI/output/lichtv-benchmark-20261115/34-208941dc_00008_.png",
+      "exists": true,
+      "verified_at": "2026-11-15T05:17:56.685424+00:00",
+      "method": "Pillow full pixel decode",
+      "success": true,
+      "image_size": [
+        760,
+        1368
+      ],
+      "check_seconds": 0.028
+    },
+    {
+      "file": "/root/ComfyUI/output/lichtv-benchmark-20261115/35-bc788833_00001.png",
+      "exists": true,
+      "verified_at": "2026-11-15T05:17:56.713361+00:00",
+      "method": "Pillow full pixel decode",
+      "success": true,
+      "image_size": [
+        864,
+        480
+      ],
+      "check_seconds": 0.016
+    },
+    {
+      "file": "/root/ComfyUI/output/lichtv-benchmark-20261115/36-29f200c4_00001_.png",
+      "exists": true,
+      "verified_at": "2026-11-15T05:17:56.729492+00:00",
+      "method": "Pillow full pixel decode",
+      "success": true,
+      "image_size": [
+        768,
+        1376
+      ],
+      "check_seconds": 0.037
+    },
+    {
+      "file": "/root/ComfyUI/output/lichtv-benchmark-20261115/37-c57791db_00001_.png",
+      "exists": true,
+      "verified_at": "2026-11-15T05:17:56.767052+00:00",
+      "method": "Pillow full pixel decode",
+      "success": true,
+      "image_size": [
+        1942,
+        1080
+      ],
+      "check_seconds": 0.062
+    },
+    {
+      "file": "/root/ComfyUI/output/lichtv-benchmark-20261115/38-444552a2_00001_.png",
+      "exists": true,
+      "verified_at": "2026-11-15T05:17:56.829816+00:00",
+      "method": "Pillow full pixel decode",
+      "success": true,
+      "image_size": [
+        1728,
+        960
+      ],
+      "check_seconds": 0.043
+    },
+    {
+      "file": "/root/ComfyUI/output/lichtv-benchmark-20261115/39-ee10ca18_00001_.png",
+      "exists": true,
+      "verified_at": "2026-11-15T05:17:56.872961+00:00",
+      "method": "Pillow full pixel decode",
+      "success": true,
+      "image_size": [
+        3686,
+        2048
+      ],
+      "check_seconds": 0.2
+    },
+    {
+      "file": "/root/ComfyUI/output/lichtv-benchmark-20261115/40-0ee6e189_00001_.png",
+      "exists": true,
+      "verified_at": "2026-11-15T05:17:57.073114+00:00",
+      "method": "Pillow full pixel decode",
+      "success": true,
+      "image_size": [
+        1072,
+        1920
+      ],
+      "check_seconds": 0.059
+    },
+    {
+      "file": "/root/ComfyUI/output/lichtv-benchmark-20261115/40-0ee6e189_00002_.png",
+      "exists": true,
+      "verified_at": "2026-11-15T05:17:57.132570+00:00",
+      "method": "Pillow full pixel decode",
+      "success": true,
+      "image_size": [
+        1072,
+        1920
+      ],
+      "check_seconds": 0.06
+    },
+    {
+      "file": "/root/ComfyUI/output/lichtv-benchmark-20261115/40-0ee6e189_00003_.png",
+      "exists": true,
+      "verified_at": "2026-11-15T05:17:57.192441+00:00",
+      "method": "Pillow full pixel decode",
+      "success": true,
+      "image_size": [
+        1072,
+        1920
+      ],
+      "check_seconds": 0.063
+    },
+    {
+      "file": "/root/ComfyUI/output/lichtv-benchmark-20261115/40-0ee6e189_00004_.png",
+      "exists": true,
+      "verified_at": "2026-11-15T05:17:57.255224+00:00",
+      "method": "Pillow full pixel decode",
+      "success": true,
+      "image_size": [
+        1072,
+        1920
+      ],
+      "check_seconds": 0.054
+    },
+    {
+      "file": "/root/ComfyUI/output/lichtv-benchmark-20261115/40-0ee6e189_00005_.png",
+      "exists": true,
+      "verified_at": "2026-11-15T05:17:57.309673+00:00",
+      "method": "Pillow full pixel decode",
+      "success": true,
+      "image_size": [
+        1072,
+        1920
+      ],
+      "check_seconds": 0.058
+    },
+    {
+      "file": "/root/ComfyUI/output/lichtv-benchmark-20261115/40-0ee6e189_00006_.png",
+      "exists": true,
+      "verified_at": "2026-11-15T05:17:57.367940+00:00",
+      "method": "Pillow full pixel decode",
+      "success": true,
+      "image_size": [
+        1072,
+        1920
+      ],
+      "check_seconds": 0.056
+    },
+    {
+      "file": "/root/ComfyUI/output/lichtv-benchmark-20261115/40-0ee6e189_00007_.png",
+      "exists": true,
+      "verified_at": "2026-11-15T05:17:57.424456+00:00",
+      "method": "Pillow full pixel decode",
+      "success": true,
+      "image_size": [
+        1072,
+        1920
+      ],
+      "check_seconds": 0.064
+    },
+    {
+      "file": "/root/ComfyUI/output/lichtv-benchmark-20261115/40-0ee6e189_00008_.png",
+      "exists": true,
+      "verified_at": "2026-11-15T05:17:57.488114+00:00",
+      "method": "Pillow full pixel decode",
+      "success": true,
+      "image_size": [
+        1072,
+        1920
+      ],
+      "check_seconds": 0.051
+    },
+    {
+      "file": "/root/ComfyUI/output/lichtv-benchmark-20261115/41-6be12d4f_00001_.png",
+      "exists": true,
+      "verified_at": "2026-11-15T05:17:57.540219+00:00",
+      "method": "Pillow full pixel decode",
+      "success": true,
+      "image_size": [
+        3686,
+        2048
+      ],
+      "check_seconds": 0.224
+    },
+    {
+      "file": "/root/ComfyUI/output/lichtv-benchmark-20261115/42-ca6b9078_00001_.png",
+      "exists": true,
+      "verified_at": "2026-11-15T05:17:57.764323+00:00",
+      "method": "Pillow full pixel decode",
+      "success": true,
+      "image_size": [
+        960,
+        1744
+      ],
+      "check_seconds": 0.039
+    },
+    {
+      "file": "/root/ComfyUI/output/lichtv-benchmark-20261115/43-55c4c824_00001_.png",
+      "exists": true,
+      "verified_at": "2026-11-15T05:17:57.803190+00:00",
+      "method": "Pillow full pixel decode",
+      "success": true,
+      "image_size": [
+        864,
+        480
+      ],
+      "check_seconds": 0.012
+    },
+    {
+      "file": "/root/ComfyUI/output/lichtv-benchmark-20261115/44-586890a7_00001_.png",
+      "exists": true,
+      "verified_at": "2026-11-15T05:17:57.815491+00:00",
+      "method": "Pillow full pixel decode",
+      "success": true,
+      "image_size": [
+        864,
+        480
+      ],
+      "check_seconds": 0.015
+    },
+    {
+      "file": "/root/ComfyUI/output/lichtv-benchmark-20261115/45-482e916a_00001_.png",
+      "exists": true,
+      "verified_at": "2026-11-15T05:17:57.830434+00:00",
+      "method": "Pillow full pixel decode",
+      "success": true,
+      "image_size": [
+        864,
+        480
+      ],
+      "check_seconds": 0.016
+    },
+    {
+      "file": "/root/ComfyUI/output/lichtv-benchmark-20261115/47-7e7935fe_00001-audio.mp4",
+      "exists": true,
+      "verified_at": "2026-11-15T05:17:57.847501+00:00",
+      "method": "ffmpeg full video/audio decode",
+      "success": true,
+      "returncode": 0,
+      "stderr": "",
+      "probe": {
+        "programs": [],
+        "streams": [
+          {
+            "codec_name": "h264",
+            "codec_type": "video",
+            "width": 480,
+            "height": 864,
+            "r_frame_rate": "24/1",
+            "nb_frames": "120"
+          },
+          {
+            "codec_name": "aac",
+            "codec_type": "audio",
+            "sample_rate": "44100",
+            "channels": 2,
+            "r_frame_rate": "0/0",
+            "nb_frames": "216"
+          }
+        ],
+        "format": {
+          "duration": "5.000000"
+        }
+      },
+      "check_seconds": 0.322
+    },
+    {
+      "file": "/root/ComfyUI/output/lichtv-benchmark-20261115/48-76805d15_00001_.mp4",
+      "exists": true,
+      "verified_at": "2026-11-15T05:17:58.170115+00:00",
+      "method": "ffmpeg full video/audio decode",
+      "success": true,
+      "returncode": 0,
+      "stderr": "",
+      "probe": {
+        "programs": [],
+        "streams": [
+          {
+            "codec_name": "h264",
+            "codec_type": "video",
+            "width": 960,
+            "height": 1728,
+            "r_frame_rate": "24/1",
+            "nb_frames": "120"
+          },
+          {
+            "codec_name": "aac",
+            "codec_type": "audio",
+            "sample_rate": "44100",
+            "channels": 2,
+            "r_frame_rate": "0/0",
+            "nb_frames": "217"
+          }
+        ],
+        "format": {
+          "duration": "5.000000"
+        }
+      },
+      "check_seconds": 0.827
+    },
+    {
+      "file": "/root/ComfyUI/output/lichtv-benchmark-20261115/49-c67a8024_00001-audio.mp4",
+      "exists": true,
+      "verified_at": "2026-11-15T05:17:58.998401+00:00",
+      "method": "ffmpeg full video/audio decode",
+      "success": true,
+      "returncode": 0,
+      "stderr": "",
+      "probe": {
+        "programs": [],
+        "streams": [
+          {
+            "codec_name": "h264",
+            "codec_type": "video",
+            "width": 480,
+            "height": 864,
+            "r_frame_rate": "48/1",
+            "nb_frames": "240"
+          },
+          {
+            "codec_name": "aac",
+            "codec_type": "audio",
+            "sample_rate": "44100",
+            "channels": 2,
+            "r_frame_rate": "0/0",
+            "nb_frames": "215"
+          }
+        ],
+        "format": {
+          "duration": "5.000000"
+        }
+      },
+      "check_seconds": 0.408
+    },
+    {
+      "file": "/root/ComfyUI/output/lichtv-benchmark-20261115/50-7203abc3_00001.flac",
+      "exists": true,
+      "verified_at": "2026-11-15T05:17:59.406290+00:00",
+      "method": "ffmpeg full video/audio decode",
+      "success": true,
+      "returncode": 0,
+      "stderr": "",
+      "probe": {
+        "programs": [],
+        "streams": [
+          {
+            "codec_name": "flac",
+            "codec_type": "audio",
+            "sample_rate": "44100",
+            "channels": 1,
+            "r_frame_rate": "0/0"
+          }
+        ],
+        "format": {
+          "duration": "2.414875"
+        }
+      },
+      "check_seconds": 0.103
+    },
+    {
+      "file": "/root/ComfyUI/output/lichtv-benchmark-20261115/51-e2f2dff5_00001-audio.mp4",
+      "exists": true,
+      "verified_at": "2026-11-15T05:17:59.509962+00:00",
+      "method": "ffmpeg full video/audio decode",
+      "success": true,
+      "returncode": 0,
+      "stderr": "",
+      "probe": {
+        "programs": [],
+        "streams": [
+          {
+            "codec_name": "h264",
+            "codec_type": "video",
+            "width": 1280,
+            "height": 704,
+            "r_frame_rate": "24/1",
+            "nb_frames": "124"
+          },
+          {
+            "codec_name": "aac",
+            "codec_type": "audio",
+            "sample_rate": "32000",
+            "channels": 2,
+            "r_frame_rate": "0/0",
+            "nb_frames": "162"
+          }
+        ],
+        "format": {
+          "duration": "5.167000"
+        }
+      },
+      "check_seconds": 0.467
+    },
+    {
+      "file": "/root/ComfyUI/output/lichtv-benchmark-20261115/52-97cdca3d_00001-audio.mp4",
+      "exists": true,
+      "verified_at": "2026-11-15T05:17:59.977142+00:00",
+      "method": "ffmpeg full video/audio decode",
+      "success": true,
+      "returncode": 0,
+      "stderr": "",
+      "probe": {
+        "programs": [],
+        "streams": [
+          {
+            "codec_name": "h264",
+            "codec_type": "video",
+            "width": 2752,
+            "height": 1536,
+            "r_frame_rate": "24/1",
+            "nb_frames": "124"
+          },
+          {
+            "codec_name": "aac",
+            "codec_type": "audio",
+            "sample_rate": "32000",
+            "channels": 2,
+            "r_frame_rate": "0/0",
+            "nb_frames": "162"
+          }
+        ],
+        "format": {
+          "duration": "5.167000"
+        }
+      },
+      "check_seconds": 1.82
+    },
+    {
+      "file": "/root/ComfyUI/output/lichtv-benchmark-20261115/53-017c7c61_00001_.png",
+      "exists": true,
+      "verified_at": "2026-11-15T05:18:01.797061+00:00",
+      "method": "Pillow full pixel decode",
+      "success": true,
+      "image_size": [
+        3413,
+        6144
+      ],
+      "check_seconds": 0.617
+    },
+    {
+      "file": "/root/ComfyUI/output/lichtv-benchmark-20261115/01-cc975cd1_00001.mp4",
+      "exists": true,
+      "verified_at": "2026-11-15T05:18:02.418384+00:00",
+      "method": "ffmpeg full video/audio decode",
+      "success": true,
+      "returncode": 0,
+      "stderr": "",
+      "probe": {
+        "programs": [],
+        "streams": [
+          {
+            "codec_name": "h264",
+            "codec_type": "video",
+            "width": 480,
+            "height": 864,
+            "r_frame_rate": "24/1",
+            "nb_frames": "121"
+          }
+        ],
+        "format": {
+          "duration": "5.042000"
+        }
+      },
+      "check_seconds": 0.29
+    },
+    {
+      "file": "/root/ComfyUI/output/lichtv-benchmark-20261115/01-65f7b66f_00001-audio.mp4",
+      "exists": true,
+      "verified_at": "2026-11-15T05:18:02.709896+00:00",
+      "method": "ffmpeg full video/audio decode",
+      "success": true,
+      "returncode": 0,
+      "stderr": "",
+      "probe": {
+        "programs": [],
+        "streams": [
+          {
+            "codec_name": "h264",
+            "codec_type": "video",
+            "width": 864,
+            "height": 480,
+            "r_frame_rate": "30/1",
+            "nb_frames": "153"
+          },
+          {
+            "codec_name": "aac",
+            "codec_type": "audio",
+            "sample_rate": "32000",
+            "channels": 1,
+            "r_frame_rate": "0/0",
+            "nb_frames": "160"
+          }
+        ],
+        "format": {
+          "duration": "5.100000"
+        }
+      },
+      "check_seconds": 0.29
+    },
+    {
+      "file": "/root/ComfyUI/output/lichtv-benchmark-20261115/01-ec094388_00001-audio.mp4",
+      "exists": true,
+      "verified_at": "2026-11-15T05:18:03.001191+00:00",
+      "method": "ffmpeg full video/audio decode",
+      "success": true,
+      "returncode": 0,
+      "stderr": "",
+      "probe": {
+        "programs": [],
+        "streams": [
+          {
+            "codec_name": "h264",
+            "codec_type": "video",
+            "width": 864,
+            "height": 480,
+            "r_frame_rate": "24/1",
+            "nb_frames": "124"
+          },
+          {
+            "codec_name": "aac",
+            "codec_type": "audio",
+            "sample_rate": "32000",
+            "channels": 2,
+            "r_frame_rate": "0/0",
+            "nb_frames": "162"
+          }
+        ],
+        "format": {
+          "duration": "5.167000"
+        }
+      },
+      "check_seconds": 0.32
+    },
+    {
+      "file": "/root/ComfyUI/output/lichtv-benchmark-20261115/01-acbf254d_00001-audio.mp4",
+      "exists": true,
+      "verified_at": "2026-11-15T05:18:03.322969+00:00",
+      "method": "ffmpeg full video/audio decode",
+      "success": true,
+      "returncode": 0,
+      "stderr": "",
+      "probe": {
+        "programs": [],
+        "streams": [
+          {
+            "codec_name": "h264",
+            "codec_type": "video",
+            "width": 864,
+            "height": 480,
+            "r_frame_rate": "24/1",
+            "nb_frames": "121"
+          },
+          {
+            "codec_name": "aac",
+            "codec_type": "audio",
+            "sample_rate": "48000",
+            "channels": 2,
+            "r_frame_rate": "0/0",
+            "nb_frames": "237"
+          }
+        ],
+        "format": {
+          "duration": "5.042000"
+        }
+      },
+      "check_seconds": 0.28
+    },
+    {
+      "file": "/root/ComfyUI/output/lichtv-benchmark-20261115/02-97cdca3d_00001-audio.mp4",
+      "exists": true,
+      "verified_at": "2026-11-15T05:18:03.602937+00:00",
+      "method": "ffmpeg full video/audio decode",
+      "success": true,
+      "returncode": 0,
+      "stderr": "",
+      "probe": {
+        "programs": [],
+        "streams": [
+          {
+            "codec_name": "h264",
+            "codec_type": "video",
+            "width": 1728,
+            "height": 960,
+            "r_frame_rate": "24/1",
+            "nb_frames": "124"
+          },
+          {
+            "codec_name": "aac",
+            "codec_type": "audio",
+            "sample_rate": "32000",
+            "channels": 2,
+            "r_frame_rate": "0/0",
+            "nb_frames": "162"
+          }
+        ],
+        "format": {
+          "duration": "5.167000"
+        }
+      },
+      "check_seconds": 0.834
+    }
+  ],
+  "total": 71,
+  "passed": 71
+}

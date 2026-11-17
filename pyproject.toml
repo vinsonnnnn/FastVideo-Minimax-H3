@@ -274,7 +274,7 @@ exclude = ["assets*", "docker*", "docs", "scripts*", "apps*", "dreamverse.tests*
 
 [tool.setuptools.package-data]
 "fastvideo.entrypoints.openai" = ["static/*.html", "static/*.css", "static/*.js"]
-dreamverse = ["prompts/*.md"]
+dreamverse = ["prompts/*.md", "remote_studio_static/*"]
 infinite_livestream = ["configs/*.yaml", "presets/*.json", "web/*"]
 "fastvideo.third_party.rife_mlx" = ["LICENSE"]
 "fastvideo.third_party.taehv" = ["LICENSE"]

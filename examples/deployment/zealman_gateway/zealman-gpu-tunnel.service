@@ -1,0 +1,22 @@
+[Unit]
+Description=Private SSH tunnel to the AutoDL Zealman panel
+Wants=network-online.target
+After=network-online.target
+StartLimitIntervalSec=0
+
+[Service]
+Type=simple
+User=zealman-tunnel
+Group=zealman-tunnel
+ExecStart=/usr/bin/ssh -F /dev/null -N -T -p 50211 -i /data/zealman-gateway/ssh/id_ed25519 -o IdentitiesOnly=yes -o BatchMode=yes -o PasswordAuthentication=no -o StrictHostKeyChecking=yes -o UserKnownHostsFile=/data/zealman-gateway/ssh/known_hosts -o ExitOnForwardFailure=yes -o ServerAliveInterval=30 -o ServerAliveCountMax=3 -o ConnectTimeout=15 -L 127.0.0.1:16008:127.0.0.1:6008 root@connect.bjb2.seetacloud.com
+Restart=always
+RestartSec=10
+TimeoutStopSec=15
+NoNewPrivileges=yes
+PrivateTmp=yes
+ProtectSystem=strict
+ProtectHome=yes
+UMask=0077
+
+[Install]
+WantedBy=multi-user.target

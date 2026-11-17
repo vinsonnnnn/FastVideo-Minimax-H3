@@ -1,0 +1,21 @@
+{
+  "public_base_url": "https://YOUR-VERIFIED-DOMAIN/lichtv",
+  "alipay": {
+    "enabled": false,
+    "app_id": "",
+    "seller_id": "",
+    "private_key_file": "alipay_app_private.pem",
+    "alipay_public_key_file": "alipay_public.pem"
+  },
+  "wechatpay": {
+    "enabled": false,
+    "app_id": "",
+    "mch_id": "",
+    "merchant_serial": "",
+    "private_key_file": "wechatpay_merchant_private.pem",
+    "api_v3_key_file": "wechatpay_api_v3_key.txt",
+    "platform_public_keys": {
+      "PUB_KEY_ID_REPLACE_WITH_REAL_ID": "wechatpay_public.pem"
+    }
+  }
+}

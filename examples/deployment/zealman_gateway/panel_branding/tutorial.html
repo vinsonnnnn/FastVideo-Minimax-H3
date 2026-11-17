@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>LichTV 短剧制作指南</title>
+  <style>
+    body{font:16px/1.8 system-ui,sans-serif;max-width:900px;margin:40px auto;padding:0 24px;color:#1e293b;background:#f8fafc}
+    section{background:white;border:1px solid #e2e8f0;border-radius:16px;padding:24px;margin:20px 0}
+    h1,h2{line-height:1.3}code{background:#e2e8f0;border-radius:4px;padding:2px 5px}
+    @media(prefers-color-scheme:dark){body{background:#0f172a;color:#e2e8f0}section{background:#172033;border-color:#334155}code{background:#334155}}
+  </style>
+</head>
+<body>
+  <h1>LichTV 短剧制作指南</h1>
+  <section id="h3"><h2>H3 镜头生成</h2>
+    <ol><li>确认首页显示 ComfyUI 运行中、GPU 可用。</li>
+      <li>在“API生成”选择工作流，或进入“H3画布”创建镜头。</li>
+      <li>上传角色、场景等参考素材，填写镜头描述；素材按所选工作流的入口顺序添加。</li>
+      <li>首次使用选择较短时长和较低分辨率，提交后在任务列表查看结果。</li></ol>
+    <p>不同工作流支持的图片、视频和音频条件不同，请按当前表单填写。</p>
+  </section>
+  <section id="workflow"><h2>选择工作流</h2>
+    <p><code>U06</code> 提供多参考图镜头生成；<code>U11</code> 用于人物图与语音驱动；带二采、放大的工作流需要更多计算资源。</p>
+    <p><code>Z-连通测试</code> 可检查上传、任务和下载链路，该测试不会加载 H3 模型。</p>
+  </section>
+  <section id="assets"><h2>素材与成片</h2>
+    <p>在“我的资产”管理输入素材和输出文件。生成完成后及时下载成片；分镜可分别生成，再进入剪辑流程。</p>
+  </section>
+</body>
+</html>

@@ -4,6 +4,10 @@ Dreamverse is the FastVideo realtime video generation & editing platform. It liv
 
 **Deploy on:** [local GPU](#quick-start-local-gpu) · [self-hosted B200 (SSH)](#server-b200-deployment-ssh) · [Docker](docker/README.md) · [Modal](scripts/modal/README.md)
 
+For local development against one remote RTX 5090, use the
+[SSH deployment and reference-video test guide](../../docs/inference/remote_h3_5090.md).
+Its CPU-only workbench tests the REST video API independently of the realtime Dreamverse websocket UI.
+
 ## Install Dreamverse
 
 You can install Dreamverse using one of the methods below.

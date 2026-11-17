@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 225">
+  <defs>
+    <linearGradient id="sky" x2="0" y2="1"><stop stop-color="#183345"/><stop offset="1" stop-color="#9da2a4"/></linearGradient>
+    <linearGradient id="warm" x2="1" y2="1"><stop stop-color="#c4a889"/><stop offset="1" stop-color="#514a46"/></linearGradient>
+    <linearGradient id="violet" x2="1" y2="1"><stop stop-color="#312845"/><stop offset="1" stop-color="#9b718d"/></linearGradient>
+    <linearGradient id="green" x2="1" y2="1"><stop stop-color="#0d2e2d"/><stop offset="1" stop-color="#568578"/></linearGradient>
+    <radialGradient id="moon"><stop stop-color="#f6ead6"/><stop offset="1" stop-color="#bfcacb"/></radialGradient>
+    <pattern id="lines" width="12" height="12" patternUnits="userSpaceOnUse"><path d="M0 12 12 0" stroke="#fff" stroke-opacity=".035"/></pattern>
+    <filter id="blur"><feGaussianBlur stdDeviation="7"/></filter>
+  </defs>
+  <symbol id="scene" viewBox="0 0 400 225">
+    <path fill="url(#sky)" d="M0 0h400v225H0z"/>
+    <circle cx="292" cy="70" r="44" fill="#ecdfc9" opacity=".16" filter="url(#blur)"/><circle cx="292" cy="70" r="29" fill="url(#moon)"/>
+    <path d="M0 152 60 93l58 42 63-77 66 80 57-22 96 42v67H0Z" fill="#233b46"/><path d="m0 178 81-25 70 27 71-44 55 33 68-21 55 29v48H0Z" fill="#172b34"/>
+    <path d="M0 206c80-16 90-8 164-3s123-19 236-1v23H0Z" fill="#0f2029"/>
+    <path d="M155 225 201 172h8l34 53Z" fill="#899295" opacity=".35"/><ellipse cx="206" cy="218" rx="13" ry="3" fill="#0008"/><circle cx="204" cy="166" r="4" fill="#131d22"/><path d="m201 172-5 23 16-1-5-22Z" fill="#1c242b"/><path d="m201 193-2 22m9-22 3 22" stroke="#151d23" stroke-width="3"/>
+    <path d="M32 44h18M32 44v18m318-18h18v18M32 178v18h18m318-18v18h-18" stroke="#f5f5f5" stroke-opacity=".4" fill="none"/>
+    <path fill="url(#lines)" d="M0 0h400v225H0z"/>
+  </symbol>
+  <symbol id="story" viewBox="0 0 400 225">
+    <path fill="url(#warm)" d="M0 0h400v225H0z"/>
+    <g transform="translate(52 46) rotate(-10 70 72)"><rect width="142" height="151" rx="4" fill="#dbd2c6"/><rect x="7" y="7" width="128" height="113" fill="#938a7e"/><circle cx="70" cy="48" r="22" fill="#d6c1a8"/><path d="M37 53c-5-60 77-54 66 0l-9-17c-10 10-23 5-38 2l-6 19Z" fill="#3e3938"/><path d="M24 119c0-45 93-48 94 0" fill="#5c5e5c"/><path d="M20 133h72m-72 6h43" stroke="#99918a" stroke-width="2"/></g>
+    <g transform="translate(196 34) rotate(8 70 72)"><rect width="142" height="151" rx="4" fill="#e5dacf"/><rect x="7" y="7" width="128" height="113" fill="#77756f"/><path d="M17 120V45h25V30h26v18h29V27h28v93Z" fill="#585c59"/><path d="M17 120 67 66l49 54Z" fill="#b1a694"/><path d="M20 133h80m-80 6h53" stroke="#99918a" stroke-width="2"/></g>
+    <path fill="url(#lines)" d="M0 0h400v225H0z"/>
+  </symbol>
+  <symbol id="voice" viewBox="0 0 400 225">
+    <path fill="url(#violet)" d="M0 0h400v225H0z"/><circle cx="100" cy="105" r="76" fill="#e5c0c6" opacity=".09"/>
+    <path d="M62 225c-7-39 5-58 28-67-12-17-18-30-17-52 2-32 20-55 49-55 37 0 52 32 47 54l13 21-16 6c1 22-12 36-33 37l-3 27 23 29Z" fill="#242331" opacity=".75"/>
+    <path d="M81 86c10-26 58-41 82-5" stroke="#c294a9" stroke-opacity=".6" stroke-width="2" fill="none"/>
+    <g stroke="#ead7e2" stroke-width="3" stroke-linecap="round"><path d="M206 108v13m12-27v41m12-53v65m12-52v40m12-27v13m12-49v86m12-62v39m12-18v4m12-40v76m12-55v34m12-21v8m12-27v44m12-28v12"/></g>
+    <path d="M198 174h156" stroke="#d3b4c8" opacity=".3"/><circle cx="272" cy="174" r="4" fill="#dcc4d5"/><path fill="url(#lines)" d="M0 0h400v225H0z"/>
+  </symbol>
+  <symbol id="detail" viewBox="0 0 400 225">
+    <path fill="url(#green)" d="M0 0h400v225H0z"/>
+    <g stroke="#a7cec1" stroke-opacity=".2" stroke-width="1"><path d="M40 45h320M40 75h320M40 105h320M40 135h320M40 165h320M40 195h320M70 20v190m40-190v190m40-190v190m40-190v190m40-190v190m40-190v190m40-190v190m40-190v190"/></g>
+    <rect x="56" y="51" width="158" height="119" rx="7" fill="#416b61"/><path d="m63 164 43-54 34 28 26-49 42 75Z" fill="#9bb9a3"/><circle cx="176" cy="79" r="13" fill="#d3d7b5"/>
+    <circle cx="254" cy="99" r="54" fill="#1b3e37" stroke="#b7d1bd" stroke-width="3"/><path d="m289 139 37 36" stroke="#b7d1bd" stroke-width="12" stroke-linecap="round"/>
+    <path d="m217 124 25-44 15 27 15-15 24 32Z" fill="#95bca7"/><circle cx="270" cy="77" r="9" fill="#d8debf"/>
+    <path d="M211 60h13m-13 0v13m86-13h-13m13 0v13" fill="none" stroke="#d1e3d5" opacity=".5"/>
+    <path fill="url(#lines)" d="M0 0h400v225H0z"/>
+  </symbol>
+</svg>
